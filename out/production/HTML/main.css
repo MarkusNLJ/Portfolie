@@ -1,0 +1,78 @@
+body{
+    background-image: url("https://media3.giphy.com/media/BHNfhgU63qrks/giphy.gif");
+    background-size: cover;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+li{
+    float: left;
+    border-right: 1px solid black;
+}
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 24px 26px;
+    text-decoration: none;
+}
+li a:hover{
+    background-color: darkred;
+}
+
+.clearfix{
+    overflow: auto;
+}
+.img{
+    display: block;
+
+
+}
+.img2{
+    clear: right;
+}
+p.round{
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: auto;
+    background-color: lightgrey;
+    text-align: center;
+    max-width: 300px;
+    display: block;
+}
+p.round1{
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: auto;
+    background-color: lightgrey;
+    text-align: left;
+    width: 335px;
+    float: left;
+    display: block;
+}
+p.round2{
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: auto;
+    background-color: lightgrey;
+    text-align: center;
+    max-width: 700px;
+    display: block;
+}
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.flex-item{
+
+}
+
